@@ -7,7 +7,7 @@ The friendly interface provides immediate feedback and encouragement, creating a
 ---
 
 ## 🌐 Live Demo  
-[Click here to play KidsQuiz](https://your-live-demo-link.com)  
+[Click here to play KidsQuiz](https://soft-cucurucho-968d6e.netlify.app/)  
 
 ---
 
