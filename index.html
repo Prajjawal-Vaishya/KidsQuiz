@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<style>
+
+</style>
+<body>
+
+    <div id="home-view" class="view active">
+        <div class="container">
+            <header class="home-header">
+                <div class="home-title-container">
+                    <i class="fa-solid fa-bolt-lightning title-icon"></i>
+                    <h1>KidsQuiz</h1>
+                </div>
+                <p>Challenge yourself with our collection of engaging quizzes. Learn, explore, and test your knowledge across various topics!</p>
+            </header>
+
+            <div id="quiz-grid" class="quiz-grid">
+                </div>
+
+            <div class="coming-soon-section">
+                <h2>Coming Soon</h2>
+                <div class="coming-soon-grid">
+                    <div class="coming-soon-card">
+                        <div class="coming-soon-icon">🏛️</div>
+                        <div class="coming-soon-name">History Heroes</div>
+                    </div>
+                    <div class="coming-soon-card">
+                        <div class="coming-soon-icon">🔢</div>
+                        <div class="coming-soon-name">Math Masters</div>
+                    </div>
+                    <div class="coming-soon-card">
+                        <div class="coming-soon-icon">🎨</div>
+                        <div class="coming-soon-name">Art & Culture</div>
+                    </div>
+                    <div class="coming-soon-card">
+                        <div class="coming-soon-icon">⚽</div>
+                        <div class="coming-soon-name">Sports Trivia</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="quiz-view" class="view">
+        <div class="container-quiz">
+            <div class="quiz-card-main">
+                <header id="quiz-header" class="quiz-header-main">
+                    </header>
+
+                <div class="progress-bar-container">
+                    <div id="progress-bar" class="progress-bar-inner"></div>
+                </div>
+
+                <div id="quiz-content" class="quiz-content">
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="completion-view" class="view">
+        <div class="container-completion">
+            <div class="results-card">
+                <i class="fa-solid fa-trophy results-trophy"></i>
+                <h1 class="results-title">Quiz Complete!</h1>
+                <div id="final-score-display" class="final-score">
+                    </div>
+                <p id="score-message" class="score-message"></p>
+                
+                <div id="answer-review" class="answer-review">
+                    <h3 class="review-title">Your Answers:</h3>
+                    </div>
+
+                <div class="results-buttons">
+                    <button id="retake-quiz-btn" class="results-btn retake-btn">
+                        <i class="fa-solid fa-rotate-right"></i> Retake Quiz
+                    </button>
+                    <button id="back-to-hub-btn" class="results-btn hub-btn">
+                        <i class="fa-solid fa-bolt-lightning"></i> Back to Hub
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
