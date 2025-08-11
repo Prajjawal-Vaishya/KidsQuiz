@@ -19,13 +19,11 @@ Responsive Design: Looks and works great on desktops, tablets, and mobile phones
 Pure JavaScript: Built without any frameworks or libraries for a lightweight and fast experience.
 
 💻 Technologies Used
-HTML5
 
-CSS3 (with Custom Properties for easy theming)
-
-Vanilla JavaScript (ES6+)
-
-Font Awesome (for icons)
+  HTML5
+  CSS3 (with Custom Properties for easy theming)
+  Vanilla JavaScript (ES6+)
+  Font Awesome (for icons)
 
 🚀 How to Use
 To run this project on your local machine, simply follow these steps:
